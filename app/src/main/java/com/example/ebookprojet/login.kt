@@ -19,13 +19,13 @@ class login : AppCompatActivity() {
 
 
         btnlogin.setOnClickListener{
-//            if (!email.text.isEmpty() && password.text.length > 8) {
-//                var i=Intent(this,home::class.java)
-//                startActivity(i)
-//
-//            } else {
-//                Toast.makeText(this, "Invalid", Toast.LENGTH_SHORT).show()
-//            }
+            if (!email.text.isEmpty() && password.text.length > 8) {
+                var i=Intent(this,home::class.java)
+                startActivity(i)
+
+            } else {
+                Toast.makeText(this, "Invalid", Toast.LENGTH_SHORT).show()
+            }
         }
 
 

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_book">
+
+    <ImageView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:src="@drawable/img"
+
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        >
+
+
+        <EditText
+            android:id="@+id/writter"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:hint="Writter"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="17dp"
+
+            android:background="@drawable/rounded_edittext"
+            android:paddingStart="70dp"
+            android:layout_gravity="center"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        >
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:hint="title ebook"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="17dp"
+            android:background="@drawable/rounded_edittext"
+            android:paddingStart="70dp"
+            android:layout_gravity="center"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        >
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:hint="price"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="17dp"
+            android:background="@drawable/rounded_edittext"
+            android:paddingStart="70dp"
+            android:layout_gravity="center"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        >
+
+        <EditText
+            android:id="@+id/cover"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:hint="Cover"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="17dp"
+            android:background="@drawable/rounded_edittext"
+            android:paddingStart="70dp"
+            android:layout_gravity="center"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        >
+
+        <EditText
+            android:id="@+id/localisation"
+            android:layout_width="350dp"
+            android:layout_height="65dp"
+            android:hint="Localisation"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="17dp"
+            android:background="@drawable/rounded_edittext"
+            android:paddingStart="70dp"
+            android:layout_gravity="center"
+            />
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:background="@drawable/rounded_button"
+        android:text="ADD"
+        android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>
