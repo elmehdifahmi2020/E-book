@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_rowWeight="1"
+    android:layout_columnWeight="1"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/img_book"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="author"
+                />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="title"
+                />
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="price"
+                />
+            <TextView
+                android:id="@+id/cover"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="cover"
+                />
+            <TextView
+                android:id="@+id/localisation"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="localisation"
+                />
+
+            <ImageView
+                android:id="@+id/btnremove"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/delete"
+                android:layout_marginLeft="120dp"
+                android:text="add"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
